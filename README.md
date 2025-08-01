@@ -13,9 +13,9 @@ A beautiful and intuitive wallpaper app built with Java and XML layouts. Discove
 
 ## Screenshot
 <div style="display: flex; justify-content: space-around;">
- <img src="./Screenshot/ss1.jpg" alt="Home Screen" width="200">
- <img src="./Screenshot/ss2.jpg" alt="Search & Collections" width="200">
- <img src="./Screenshot/ss3.jpg" alt="Wallpaper Preview" width="200">
+ <img src="./screenshot/ss1.jpg" alt="Home Screen" width="200">
+ <img src="./screenshot/ss2.jpg" alt="Search & Collections" width="200">
+ <img src="./screenshot/ss3.jpg" alt="Wallpaper Preview" width="200">
 </div>
 
 ## Tech Stack
