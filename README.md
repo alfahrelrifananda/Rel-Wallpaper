@@ -1,58 +1,50 @@
-**Rel Wallpaper
+# Rel Wallpaper
+A beautiful and intuitive wallpaper app built with Java and XML layouts. Discover, download, and set stunning wallpapers with a sleek Material 3 design that adapts to your device's dynamic colors.
 
-A clean and modern wallpaper app built with Java and XML layouts. Browse and search through beautiful wallpaper collections, set them as your device background, and download them for free.
-Features
+## Features
+- **Extensive wallpaper collection** powered by Supabase database
+- **Smart search functionality** to find wallpapers by category, color, or keyword
+- **Organized collections** for easy browsing and discovery
+- **One-tap wallpaper setting** directly to your device
+- **Free downloads** with high-quality images
+- **Material 3 design** with dynamic color theming
+- **Clean UI** built with XML layouts
+- **Offline favorites** to save your preferred wallpapers
 
-    Extensive wallpaper collections with new additions frequently
-
-    Search functionality to find specific wallpapers
-
-    Seamlessly set wallpapers directly from the app
-
-    Freely download high-quality wallpapers
-
-    Clean UI built with XML layouts
-
-Screenshot
-
+## Screenshot
 <div style="display: flex; justify-content: space-around;">
-<img src="./screenshot/ss1.jpg" alt="Home Screen with collections" width="200">
-<img src="./screenshot/ss2.jpg" alt="Wallpaper detail view" width="200">
-<img src="./screenshot/ss3.jpg" alt="Downloaded wallpapers" width="200">
+ <img src="./Screenshot/ss1.jpg" alt="Home Screen" width="200">
+ <img src="./Screenshot/ss2.jpg" alt="Search & Collections" width="200">
+ <img src="./Screenshot/ss3.jpg" alt="Wallpaper Preview" width="200">
 </div>
-Tech Stack
 
-    Language: Java
+## Tech Stack
+- **Language:** Java
+- **UI:** XML Layouts
+- **Design:** Material 3 with Dynamic Colors
+- **Database:** Supabase
+- **Architecture:** Native Android
+- **Image Loading:** Glide/Picasso
 
-    UI: XML Layouts
+## Getting Started
+1. Clone the repository
+```bash
+https://github.com/alfahrelrifananda/Rel-Wallpaper.git
+```
+2. Set up your Supabase project at [supabase.com](https://supabase.com)
+3. Add your Supabase credentials to `apikeys.properties`:
+```
+SUPABASE_API_KEY=your_supabase_anon_key_here
+SUPABASE_URL=your_supabase_url_here
 
-    API: Pexels API or similar
+```
+4. Build and run the app!
 
-    Architecture: Native Android
+## Requirements
+- Android Studio
+- Minimum SDK: API 24 (Android 7.0)
+- Target SDK: API 34
+- Internet connection
 
-Getting Started
-
-    Clone the repository
-
-    https://github.com/alfahrelrifananda/Rel-Wallpaper.git
-
-    Get your API from supabase
-
-    Add your API key to apikeys.properties:
-
-    SUPABASE_API_KEY=your_supabase_api_key_here
-    SUPABASE_URL=your_supabase_url_here
-
-    Build and run the app!
-
-Requirements
-
-    Android Studio
-
-    Minimum SDK: API 24 (Android 7.0)
-
-    Target SDK: API 34
-
-Contributing
-
-Feel free to open issues or submit pull requests. All contributions are welcome!**
+## Contributing
+Feel free to open issues or submit pull requests. All contributions are welcome!
