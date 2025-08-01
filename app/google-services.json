@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "25698008527",
+    "project_id": "relwallpaper",
+    "storage_bucket": "relwallpaper.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25698008527:android:5823e127fb95c22e0ea6ba",
+        "android_client_info": {
+          "package_name": "com.example.relwallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25698008527-us3l1e7b920ob1bo05u7mrr2rumf8joq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.relwallpaper",
+            "certificate_hash": "26daeb330b5b90a4f2b8a97fbe8deabfd0ebb741"
+          }
+        },
+        {
+          "client_id": "25698008527-cauo2a173j7v26oucbinke2b7ku7vbll.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeIepW7sEiYiJMX6PmDl-uBLfOJukdZpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25698008527-cauo2a173j7v26oucbinke2b7ku7vbll.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

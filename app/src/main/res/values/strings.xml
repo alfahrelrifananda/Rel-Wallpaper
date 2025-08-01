@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Rel Wallpaper</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_collection">Collection</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_more">More</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="sign_in_instruction_google">Sign in with your Google account to continue.</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="select_your_wallpaper">Select Your Wallpaper</string>
+    <string name="tap_here_to_choose_an_image">Tap here to choose an image</string>
+    <string name="selected_image_preview">Selected image preview</string>
+    <string name="tap_to_change_image">Tap to change image</string>
+    <string name="wallpaper_name">Wallpaper Name...</string>
+    <string name="description">Description..</string>
+    <string name="signing_in_loading">Signing in...</string>
+    <string name="sign_in_with_google_string">Sign in with Google</string>
+</resources>    

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:background="?attr/selectableItemBackground"
+    android:minHeight="56dp">
+
+    <!-- History Icon -->
+    <ImageView
+        android:id="@+id/historyIcon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_baseline_history_24"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="Search history"
+        app:tint="?attr/colorOnSurfaceVariant" />
+
+    <!-- Search Query Text -->
+    <TextView
+        android:id="@+id/searchQueryText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textColor="?attr/colorOnSurface"
+        android:fontFamily="@font/poppins_medium"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Sample search query" />
+
+    <!-- Delete Button -->
+    <ImageButton
+        android:id="@+id/deleteButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_baseline_close_24"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Remove from history"
+        android:layout_marginStart="8dp"
+        app:tint="?attr/colorOnSurfaceVariant" />
+
+</LinearLayout>
