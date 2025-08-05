@@ -97,7 +97,6 @@
                 android:textColor="?attr/colorPrimary"
                     />
 
-            <!-- FAQ Section -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/faq_card"
                 android:layout_width="match_parent"
@@ -183,7 +182,6 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- Contact Support -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/contact_support_card"
                 android:layout_width="match_parent"
@@ -269,7 +267,6 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- User Guide -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/user_guide_card"
                 android:layout_width="match_parent"
@@ -366,7 +363,6 @@
                 android:textAppearance="?attr/textAppearanceTitleMedium"
                 android:textColor="?attr/colorPrimary"
                     />
-            <!-- Report a Bug -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/report_bug_card"
                 android:layout_width="match_parent"
@@ -452,7 +448,6 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- Feature Request -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/feature_request_card"
                 android:layout_width="match_parent"
@@ -548,7 +543,6 @@
                 android:textAppearance="?attr/textAppearanceTitleMedium"
                 android:textColor="?attr/colorPrimary"
                     />
-            <!-- About -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/about_card"
                 android:layout_width="match_parent"

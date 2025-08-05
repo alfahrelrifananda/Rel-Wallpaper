@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Main Content -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/container"
         android:layout_width="match_parent"
@@ -62,14 +61,12 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <!-- Search History Section -->
                     <LinearLayout
                         android:id="@+id/searchHistorySection"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
 
-                        <!-- Search History Header with Clear Button -->
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -113,7 +110,6 @@
 
                         </LinearLayout>
 
-                        <!-- Search History RecyclerView -->
                         <androidx.recyclerview.widget.RecyclerView
                             android:id="@+id/searchHistoryRecyclerView"
                             android:layout_width="match_parent"
@@ -124,7 +120,6 @@
 
                     </LinearLayout>
 
-                    <!-- Empty State -->
                     <LinearLayout
                         android:id="@+id/emptySearchState"
                         android:layout_width="match_parent"
@@ -135,7 +130,6 @@
                         android:padding="32dp"
                         android:visibility="visible">
 
-                        <!-- Empty State Icon -->
                         <ImageView
                             android:layout_width="64dp"
                             android:layout_height="64dp"

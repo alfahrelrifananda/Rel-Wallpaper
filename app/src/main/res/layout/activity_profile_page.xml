@@ -84,7 +84,6 @@
             android:paddingTop="8dp"
             android:paddingBottom="32dp">
 
-            <!-- Profile Info Section -->
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -128,7 +127,6 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- JWT Token Countdown Section -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -140,7 +138,6 @@
                 android:textAppearance="?attr/textAppearanceTitleMedium"
                 android:textColor="?attr/colorPrimary" />
 
-            <!-- JWT Countdown -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/jwt_countdown_card"
                 android:layout_width="match_parent"
@@ -213,7 +210,6 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- Account Actions Section -->
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -225,7 +221,6 @@
                 android:textAppearance="?attr/textAppearanceTitleMedium"
                 android:textColor="?attr/colorPrimary" />
 
-            <!-- Logout -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/logout_card"
                 android:layout_width="match_parent"

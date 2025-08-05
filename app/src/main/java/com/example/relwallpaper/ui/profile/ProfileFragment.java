@@ -23,6 +23,7 @@ import com.example.relwallpaper.ui.pages.HelpAndSupportActivity;
 import com.example.relwallpaper.ui.pages.NotificationActivity;
 import com.example.relwallpaper.ui.pages.ProfilePageActivity;
 import com.example.relwallpaper.ui.pages.SettingsActivity;
+import com.example.relwallpaper.ui.pages.UploadPageActivity;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.material.button.MaterialButton;
@@ -176,15 +177,15 @@ public class ProfileFragment extends Fragment {
 
     private void setupUploadsCard(MaterialCardView uploadsCard) {
         uploadsCard.setOnClickListener(v -> {
-            // TODO : Initialize upload Activity
+            Intent intent = new Intent(getActivity(), UploadPageActivity.class);
+            startActivity(intent);
         });
     }
-
     private void setupNavigation(View root) {
         MaterialCardView profileCard = root.findViewById(R.id.profile_card);
-        MaterialCardView notificationCard = root.findViewById(R.id.notifications_card);
-        MaterialCardView settingsCard = root.findViewById(R.id.settings_card);
-        MaterialCardView helpAndSupportCard = root.findViewById(R.id.help_card);
+//        MaterialCardView notificationCard = root.findViewById(R.id.notifications_card);
+//        MaterialCardView settingsCard = root.findViewById(R.id.settings_card);
+//        MaterialCardView helpAndSupportCard = root.findViewById(R.id.help_card);
 
         if (profileCard != null) {
             profileCard.setOnClickListener(v -> {
@@ -193,26 +194,26 @@ public class ProfileFragment extends Fragment {
             });
         }
 
-        if (notificationCard != null) {
-            notificationCard.setOnClickListener(v -> {
-                Intent intent = new Intent(getActivity(), NotificationActivity.class);
-                startActivity(intent);
-            });
-        }
-
-        if (settingsCard != null) {
-            settingsCard.setOnClickListener(v -> {
-                Intent intent = new Intent(getActivity(), SettingsActivity.class);
-                startActivity(intent);
-            });
-        }
-
-        if (helpAndSupportCard != null) {
-            helpAndSupportCard.setOnClickListener(v -> {
-                Intent intent = new Intent(getActivity(), HelpAndSupportActivity.class);
-                startActivity(intent);
-            });
-        }
+//        if (notificationCard != null) {
+//            notificationCard.setOnClickListener(v -> {
+//                Intent intent = new Intent(getActivity(), NotificationActivity.class);
+//                startActivity(intent);
+//            });
+//        }
+//
+//        if (settingsCard != null) {
+//            settingsCard.setOnClickListener(v -> {
+//                Intent intent = new Intent(getActivity(), SettingsActivity.class);
+//                startActivity(intent);
+//            });
+//        }
+//
+//        if (helpAndSupportCard != null) {
+//            helpAndSupportCard.setOnClickListener(v -> {
+//                Intent intent = new Intent(getActivity(), HelpAndSupportActivity.class);
+//                startActivity(intent);
+//            });
+//        }
     }
 
     @Override

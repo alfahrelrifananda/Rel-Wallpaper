@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/wallpaper_card"
+    android:id="@+id/card_view"
     android:layout_width="match_parent"
     android:layout_height="300dp"
     android:layout_marginTop="4dp"
@@ -41,7 +40,31 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="8dp">
+            android:padding="16dp">
+
+            <!-- Action Buttons Container -->
+            <LinearLayout
+                android:id="@+id/action_buttons_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/delete_button"
+                    style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    app:backgroundTint="?attr/colorErrorContainer"
+                    app:icon="@drawable/ic_baseline_delete_forever_24"
+                    app:iconSize="18dp"
+                    app:iconTint="?attr/colorOnErrorContainer"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp"
+                    app:cornerRadius="20dp" />
+
+            </LinearLayout>
 
             <!-- Wallpaper Info Container -->
             <LinearLayout
@@ -52,33 +75,46 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent">
 
+                <!-- Wallpaper Tags -->
+                <TextView
+                    android:id="@+id/wallpaper_tags"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textAppearance="?attr/textAppearanceBodySmall"
+                    android:textColor="@android:color/white"
+                    android:textFontWeight="300"
+                    android:alpha="0.8"
+                    android:visibility="gone"
+                    tools:text="Nature, Landscape" />
+
                 <!-- Wallpaper Name -->
                 <TextView
                     android:id="@+id/wallpaper_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ellipsize="end"
-                    android:maxLines="1"
-                    android:layout_marginLeft="8dp"
+                    android:maxLines="2"
                     android:textAppearance="?attr/textAppearanceLabelLarge"
                     android:textColor="@android:color/white"
                     android:textFontWeight="600"
-                    tools:text="Beautiful Sunset" />
+                    tools:text="Beautiful Mountain Sunset" />
 
-                <!-- Username -->
+                <!-- Upload Date -->
                 <TextView
-                    android:id="@+id/wallpaper_username"
+                    android:id="@+id/wallpaper_date"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
                     android:ellipsize="end"
                     android:maxLines="1"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="8dp"
                     android:textAppearance="?attr/textAppearanceBodySmall"
                     android:textColor="@android:color/white"
                     android:textFontWeight="300"
                     android:alpha="0.9"
-                    tools:text="By john_doe" />
+                    tools:text="Uploaded Dec 15, 2024" />
 
             </LinearLayout>
 

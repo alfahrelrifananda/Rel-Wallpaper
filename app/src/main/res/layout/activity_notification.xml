@@ -97,7 +97,6 @@
                 android:textColor="?attr/colorPrimary"
                    />
 
-            <!-- Push Notifications -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/push_notifications_card"
                 android:layout_width="match_parent"
@@ -182,7 +181,6 @@
 
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- Email Notifications -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/email_notifications_card"
                 android:layout_width="match_parent"
@@ -279,7 +277,6 @@
                 android:textColor="?attr/colorPrimary"
                    />
 
-            <!-- Security Alerts -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/security_card"
                 android:layout_width="match_parent"

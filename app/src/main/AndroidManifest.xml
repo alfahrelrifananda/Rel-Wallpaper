@@ -94,6 +94,12 @@
             android:exported="false"
             android:parentActivityName=".MainActivity" />
 
+        <!-- UPLOADS PAGES ACTIVITY -->
+        <activity
+            android:name=".ui.pages.UploadPageActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
         <!-- FILE PROVIDER for sharing images -->
 <!--        <provider-->
 <!--            android:name="androidx.core.content.FileProvider"-->
