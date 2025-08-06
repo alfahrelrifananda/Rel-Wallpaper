@@ -345,16 +345,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void redirectToLogin() {
-        SharedPreferences prefs = getSharedPreferences("app_prefs", MODE_PRIVATE);
-        prefs.edit()
-                .remove("login_time")
-                .remove("jwt_token")
-                .apply();
-
-        Intent loginIntent = new Intent(this, LoginActivity.class);
-        loginIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        startActivity(loginIntent);
-        finish();
+        new android.os.Handler(android.os.Looper.getMainLooper()).postDelayed(() -> {
+            LoginActivity.logout(this);
+        }, 0);
     }
 
     private void initializeSearchHistory() {

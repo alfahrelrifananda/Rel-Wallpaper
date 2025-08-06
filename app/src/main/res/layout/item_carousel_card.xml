@@ -18,7 +18,7 @@
         app:cardCornerRadius="28dp"
         app:cardElevation="1dp"
         app:strokeWidth="0dp"
-        app:cardBackgroundColor="?attr/colorSurfaceContainer">
+        app:cardBackgroundColor="?attr/colorSurface">
 
         <FrameLayout
             android:layout_width="match_parent"

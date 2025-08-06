@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="?attr/colorSurface">
+    android:background="?attr/colorSecondaryContainer">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -34,7 +34,7 @@
                 android:focusable="true"
                 app:cardCornerRadius="32dp"
                 app:cardElevation="0dp"
-                app:cardBackgroundColor="?attr/colorSurfaceContainerHigh"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:strokeColor="@color/transparent"
                 app:rippleColor="?attr/colorPrimary">
 
@@ -121,7 +121,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 app:cardElevation="0dp"
-                app:cardBackgroundColor="?attr/colorSurfaceContainerHigh"
+                app:cardBackgroundColor="?attr/colorSurface"
                 app:strokeColor="@color/transparent"
                 app:rippleColor="?attr/colorPrimary">
 

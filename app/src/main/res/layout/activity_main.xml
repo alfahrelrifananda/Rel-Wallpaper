@@ -5,6 +5,7 @@
     android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="?attr/colorSecondaryContainer"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -34,7 +35,7 @@
                 android:text="Search Wallpaper"
                 android:textAlignment="center"
                 android:gravity="center"
-                android:backgroundTint="?attr/colorSurfaceContainerHigh"
+                android:backgroundTint="?attr/colorSurface"
                 app:navigationIcon="@null" />
 
         </LinearLayout>
