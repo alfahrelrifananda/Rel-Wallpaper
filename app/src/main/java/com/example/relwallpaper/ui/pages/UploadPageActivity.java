@@ -257,7 +257,7 @@ public class UploadPageActivity extends AppCompatActivity {
     }
 
     private void deleteWallpaper(Wallpaper wallpaper, int position) {
-        new AlertDialog.Builder(this)
+        new com.google.android.material.dialog.MaterialAlertDialogBuilder(this)
                 .setTitle("Delete Wallpaper")
                 .setMessage("Are you sure you want to delete \"" + wallpaper.name + "\"? This action cannot be undone.")
                 .setPositiveButton("Delete", (dialog, which) -> {
@@ -495,9 +495,6 @@ public class UploadPageActivity extends AppCompatActivity {
                     deleteWallpaper(wallpaper, position);
                 });
 
-                cardView.setOnClickListener(v -> {
-                    Toast.makeText(itemView.getContext(), "Preview: " + wallpaper.name, Toast.LENGTH_SHORT).show();
-                });
             }
         }
     }
