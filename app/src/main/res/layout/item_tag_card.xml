@@ -9,7 +9,7 @@
     android:focusable="true"
     app:cardCornerRadius="32dp"
     app:cardElevation="0dp"
-    app:cardBackgroundColor="?attr/colorSurfaceContainerHigh"
+    app:cardBackgroundColor="?attr/colorSurface"
     app:strokeColor="@color/transparent"
     app:rippleColor="?attr/colorPrimary">
 
